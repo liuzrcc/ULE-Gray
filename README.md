@@ -83,7 +83,7 @@ After running the scripts, the transferability results can be found in the folde
 <img src="/figures/moreuleograyaug.png" width="304">
 </p>
 
-Unlearnable examples on CIFAR-10 by original approach (left) and ours (right). In each case, the order is the original image, unlearnable perturbations, and perturbed images.  
+Figure above shows unlearnable examples by original approach (left) and ours (right) with the order: original image, unlearnable perturbations, and perturbed images.  
 
 ### Cite our work:
 
