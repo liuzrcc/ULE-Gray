@@ -10,7 +10,10 @@ We also show that unlearnable examples generated using Multi-Layer Perceptrons (
 <img src="/figures/diagram_sce_2.PNG" width="500">
 </p>
 
-The clean test accuracies of ```ResNet-18``` in our S1 and S2 scenarios can be found in the above figure.
+Figure above shows the clean test accuracies of ```ResNet-18``` on CIFAR-10 in S1 and S2 scenarios.
+
+<br/><br/>
+
 
 Our code is mainly based on and extended from the publicly available [Unlearnable Example implementation](https://github.com/HanxunH/Unlearnable-Examples/).
 
