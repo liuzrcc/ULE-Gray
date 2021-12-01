@@ -6,6 +6,12 @@ We first show that grayscale pre-filtering (S1: Reactive Exploiter) can be used 
 Then, we propose adaptive unlearnable examples (S2: Adaptive Defender) that are resistant to grayscale pre-filtering. 
 We also show that unlearnable examples generated using Multi-Layer Perceptrons (MLPs) are effective in the case of complex Convolutional Neural Network (CNN) classifiers.
 
+<p align="center">
+<img src="/figures/diagram_sce_2.PNG" width="500">
+</p>
+
+The clean test accuracies of ```ResNet-18``` in our S1 and S2 scenarios can be found in the above figure.
+
 Our code is mainly based on and extended from the publicly available [Unlearnable Example implementation](https://github.com/HanxunH/Unlearnable-Examples/).
 
 ### How to use the code:
@@ -68,6 +74,13 @@ After running the scripts, the transferability results can be found in the folde
 
 ### More examples:
 
+<p align="center">
+<img src="/figures/moreuleo.png" width="300">
+
+<img src="/figures/moreuleograyaug.png" width="304">
+</p>
+
+Unlearnable examples on CIFAR-10 by original approach (left) and ours (right). In each case, the order is the original image, unlearnable perturbations, and perturbed images.  
 
 ### Cite our work:
 
