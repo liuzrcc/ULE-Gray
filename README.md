@@ -56,9 +56,9 @@ ULE perturbations can be found in ```./experiments/cifar10_poison/```.
 After running the scripts, training results can be found in the folder ```./experiments/cifar10_train/```.
 
 
-#### Generate ULEs on MLPs and test transferability:
+### 2. Generate ULEs on MLPs and test transferability:
 
-### 2. Generate ULEOs on MLPs:
+####  Generate ULEOs on MLPs:
 
 ```
 bash scripts/cifar10_poison/cifar10_ULEO/mlp.sh
